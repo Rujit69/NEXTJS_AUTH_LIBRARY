@@ -3,6 +3,9 @@
   "version": "1.0.10",
   "description": "Drop-in credentials-based auth for Next.js using MongoDB and NextAuth",
   "main": "bin/index.js",
+  "bin": {
+    "rujit_auth": "./bin/index.js"
+  },
   "scripts": {
     "postinstall": "node postinstall.js"
   },
