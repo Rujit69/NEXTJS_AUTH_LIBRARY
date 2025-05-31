@@ -1,6 +1,6 @@
 {
   "name": "rujit_form",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Drop-in credentials-based auth for Next.js using MongoDB and NextAuth",
   "main": "bin/index.js",
   "bin": {
