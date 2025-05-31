@@ -17,9 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^3.0.2",
-    "chalk": "^5.3.0",
     "fs-extra": "^11.1.1",
-    "inquirer": "^9.2.11",
     "mongoose": "^8.15.1",
     "next-auth": "^4.24.11"
   },
