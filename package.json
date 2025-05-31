@@ -4,7 +4,7 @@
   "description": "Drop-in credentials-based auth for Next.js using MongoDB and NextAuth",
   "main": "bin/index.js",
   "bin": {
-    "rujit_auth": "./bin/index.js"
+    "rujit_form": "./bin/index.js"
   },
   "keywords": [
     "nextjs",
