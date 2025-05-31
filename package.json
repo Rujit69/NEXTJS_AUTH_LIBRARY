@@ -3,8 +3,8 @@
   "version": "1.0.9",
   "description": "Drop-in credentials-based auth for Next.js using MongoDB and NextAuth",
   "main": "bin/index.js",
-  "bin": {
-    "rujit_form": "./bin/index.js"
+  "scripts": {
+    "postinstall": "node postinstall.js"
   },
   "keywords": [
     "nextjs",
@@ -20,8 +20,5 @@
     "fs-extra": "^11.1.1",
     "mongoose": "^8.15.1",
     "next-auth": "^4.24.11"
-  },
-  "scripts": {
-    "postinstall": "node postinstall.js"
   }
 }
