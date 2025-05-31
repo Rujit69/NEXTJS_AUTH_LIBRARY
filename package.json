@@ -23,11 +23,5 @@
   },
   "scripts": {
     "postinstall": "node postinstall.js"
-  },
-  "files": [
-    "bin",
-    "lib",
-    "postinstall.js",
-    "index.js"
-  ]
+  }
 }
