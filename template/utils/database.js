@@ -13,7 +13,7 @@ export const connectToDB = async () => {
 
   try {
     await mongoose.connect(process.env.MONGODB_URI, { 
-    //! dbName: " DB NAME HERE ", // AND REMOVE THIS COMMENT
+      dbName: " DB NAME HERE ", //! replace with your database name
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
