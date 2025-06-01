@@ -1,10 +1,10 @@
 {
-  "name": "rujit_form",
+  "name": "create-rujit-auth",
   "version": "1.0.11",
   "description": "Drop-in credentials-based auth for Next.js using MongoDB and NextAuth",
   "main": "bin/index.js",
   "bin": {
-    "rujit_auth": "./bin/index.js"
+    "create-rujit-auth": "./bin/index.js"
   },
   "scripts": {
     "postinstall": "node postinstall.js"
